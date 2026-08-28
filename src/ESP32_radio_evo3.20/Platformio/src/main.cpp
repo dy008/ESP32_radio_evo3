@@ -60,9 +60,9 @@
    
 // ################ KONFIGURACJA UZYTKOWNIKA - START ################
 //--------------- Typ wysweitlacza OLED ---------------
-#define SSD1322     // Wyswietlacz OLED 3.12 cala, SSD1322-256x64px 
+//#define SSD1322     // Wyswietlacz OLED 3.12 cala, SSD1322-256x64px 
 //#define SSD1309     // Wyswietlacz OLED 2.42 cala, SSD1309-128x64px TYLKO DisplayMode7 !
-//#define SH1122      // Wyswietlacz OLED 2.08 cala, SSD1122-256x64px 
+#define SH1122      // Wyswietlacz OLED 2.08 cala, SSD1122-256x64px 
 //#define SSD1363     // Wyswietlacz OLED 3.12 cala, SSD1322-256x128px działa ale brak trybu pełnego ekranu
 //#define SSD1306     // Wyswietlacz OLED 0.96 cala, SSD1306-128x64px TYLKO DisplayMode7 !
 
@@ -71,8 +71,8 @@
 
 //--------------- OBSLUGA PAMIECI STORAGE ---------------
 #define AUTOSTORAGE   // Definicja czy mamy właczony autostorage  (automatyczny wybor karta SD/ pamiec LittleFS lub SPIFFS w zaleznosci od ponizszej delkaracji)
-#define USE_SD        // Uzywamy karty SD , zostawiamy w przypadku AUTOSTORAGE lub gdy chcemy tylko uzywać karty SD
-//#define USE_SPIFFS  // Definijuemy czy w przypadku uzywania pamieci wewnetrznej bedzie to SPIFFS czy LittleFS. Odkomentowac TYLKO jedno LittleFS lub SPIFFS !
+//#define USE_SD        // Uzywamy karty SD , zostawiamy w przypadku AUTOSTORAGE lub gdy chcemy tylko uzywać karty SD
+#define USE_SPIFFS  // Definijuemy czy w przypadku uzywania pamieci wewnetrznej bedzie to SPIFFS czy LittleFS. Odkomentowac TYLKO jedno LittleFS lub SPIFFS !
 #define USE_LittleFS  // Patrz powyzej
 
 //--------------- DRUGI ENKODER ---------------
